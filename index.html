@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <title>Ofek's Portfoloyo</title>
 </head>
 <body>
@@ -121,6 +122,13 @@
             <img id="img2" class="firstSectionImages" name="passingParts" src="Images\2. Passing Parts.png">
             <img id="img3" class="firstSectionImages" name="stairs" src="Images\3. Stairs.png">
             <img id="img4" class="firstSectionImages" name="secondCharacters" src="Images\4. Second Layer Characters.png">
+            <div id="title">
+                <h1>UX, UI</h1>
+                <h1>&</h1>
+                <h1>Front</h1>
+                <h1>End</h1>
+                <h2>Ofek's Portfoloyo</h2>
+            </div>
         </div>
         <div id="layer2" class="layers">
             <img id="img5" class="firstSectionImages" name="frontWall" src="Images\5. FrontWall.png">
@@ -156,6 +164,8 @@
             <!-- <img id="img12" class="firstSectionImages" name="distanceEffect" src="Images\12. Distance Effect.png"> -->
             <img id="img13" class="firstSectionImages" name="backShadow" src="Images\13. Back Shadow.png">
             <img id="img14" class="firstSectionImages" name="backWall" src="Images\14. Back Wall.png">
+        </div>
+        <div id="layer5" class="layers">
             <img id="img15" class="firstSectionImages" name="clouds" src="Images\15. Clouds.png">
         </div>
         <div id="layer0" class="layers">
@@ -182,6 +192,29 @@
         #someThing{
             width: 100%;
             height: 2400px;
+        }
+        #title{
+            position: absolute;
+            margin-top: 12vw;
+            margin-left: 43%;
+            margin-right: 43%;
+            width: 14%;
+            padding: 5px;
+            text-align: center;
+            z-index: -10;
+        }
+        h1{
+            color:white;
+            font-size: 2vw;
+            padding: 0%;
+            margin: 0.5vw;
+            font-family: 'Julius Sans One', sans-serif;
+        }
+        h2{
+            color:white;
+            font-size: 1vw;
+            padding: 0%;
+            margin: 0.4vw;
         }
         .firstSectionImages{
             position: absolute;
@@ -257,7 +290,7 @@
             height: 10%;
         }
         #triggerTable{
-            width: 100vw;
+            width: 100%;
             height: 100vh;
             position: absolute;
         }
@@ -292,11 +325,13 @@
             layer25 = document.getElementById("layer25");
             layer3 = document.getElementById("layer3");
             layer4 = document.getElementById("layer4");
+            layer5 = document.getElementById("layer5");
             position1 = position*(0.34);
             position2 = position*(0.3);
             position25 = position*(0.26);
             position3 = position*(0.238);
             position4 = position*(0.16);
+            position5 = position*(0.2);
             triggerTable.style.top = position3 + 'px';
             layer0.style.top = position1 + 'px';
             layer1.style.top = position1 + 'px';
@@ -304,6 +339,7 @@
             layer25.style.top = position25 + 'px';
             layer3.style.top = position3 + 'px';
             layer4.style.top = position4 + 'px';
+            layer5.style.top = position5 + 'px';
         }
         function centerHead(){
             for (var item in heads) {
