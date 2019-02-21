@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Julius+Sans+One|Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="theme.css">
     <title>Ofek's Portfoloyo</title>
 </head>
 <body>
+    <header>
+        <div id="home" class="topnav">
+            <a class="active" href="#Introduce">Home</a>
+            <a href="#someThing">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </header>
     <section id="Introduce">
         <table id="triggerTable">
             <tr id="VeryVeryVery-high" class="triggerTr">
@@ -78,7 +87,7 @@
                 <td class="triggerTd left1" onmouseenter="left1()"></td>
                 <td class="triggerTd left1" onmouseenter="left1()"></td>
                 <td class="triggerTd left1" onmouseenter="left1()"></td>
-                <td class="triggerTd centerHead" onmouseenter="centerHead()"></td>
+                <td class="triggerTd centerHead" onmouseenter="centerHead()"><div id="headButton"></div></td>
                 <td class="triggerTd right1" onmouseenter="right1()"></td>
                 <td class="triggerTd right1" onmouseenter="right1()"></td>
                 <td class="triggerTd right1" onmouseenter="right1()"></td>
@@ -117,443 +126,69 @@
                 <td class="triggerTd rDown2" onmouseenter="rDown2()"></td>
             </tr>
         </table>
-        <div id="layer1" class="layers">
-            <img id="img1" class="firstSectionImages" name="frontCharacters" src="Images/1. Front Charecters.png">
-            <img id="img2" class="firstSectionImages" name="passingParts" src="Images\2. Passing Parts.png">
-            <img id="img3" class="firstSectionImages" name="stairs" src="Images\3. Stairs.png">
-            <img id="img4" class="firstSectionImages" name="secondCharacters" src="Images\4. Second Layer Characters.png">
-            <div id="title">
-                <h1>UX, UI</h1>
-                <h1>&</h1>
-                <h1>Front</h1>
-                <h1>End</h1>
-                <h2>Ofek's Portfoloyo</h2>
+        <div id="all-layers">
+            <div id="layer1" class="layers">
+                <img id="img1" class="firstSectionImages" name="frontCharacters" src="Images/1. Front Charecters.png">
+                <img id="img2" class="firstSectionImages" name="passingParts" src="Images\2. Passing Parts.png">
+                <img id="img3" class="firstSectionImages" name="stairs" src="Images\3. Stairs.png">
+                <img id="img4" class="firstSectionImages" name="secondCharacters" src="Images\4. Second Layer Characters.png">
+                <div id="title">
+                    <h1>UX, UI</h1>
+                    <h1>&</h1>
+                    <h1>Front</h1>
+                    <h1>End</h1>
+                    <h2>Ofek's Portfoloyo</h2>
+                </div>
+            </div>
+            <div id="layer2" class="layers">
+                <img id="img5" class="firstSectionImages" name="frontWall" src="Images\5. FrontWall.png">
+            </div>
+            <div id="layer25" class="layers">
+                <img id="img6" class="firstSectionImages" name="thirdCharacters" src="Images\6. Third Layer Characters.png">
+                <img id="img7" class="firstSectionImages" name="table" src="Images\7. Table.png">
+                <img id="img10" class="firstSectionImages" name="floor" src="Images\10. Floor.png">
+            </div>
+            <div id="layer3" class="layers">
+                <img id="down1" class="heads" src="Images\Me\Down1.png">
+                <img id="down2" class="heads" src="Images\Me\Down2.png">
+                <img id="lDown1" class="heads" src="Images\Me\L-down1.png">
+                <img id="lDown2" class="heads" src="Images\Me\L-down2.png">
+                <img id="lUp1" class="heads" src="Images\Me\L-up1.png">
+                <img id="lUp2" class="heads" src="Images\Me\L-up2.png">
+                <img id="left1" class="heads" src="Images\Me\Left1.png">
+                <img id="left2" class="heads" src="Images\Me\Left2.png">
+                <img id="rDown1" class="heads" src="Images\Me\R-down1.png">
+                <img id="rDown2" class="heads" src="Images\Me\R-down2.png">
+                <img id="rUp1" class="heads" src="Images\Me\R-up1.png">
+                <img id="rUp2" class="heads" src="Images\Me\R-up2.png">
+                <img id="up1" class="heads" src="Images\Me\Up1.png">
+                <img id="up2" class="heads" src="Images\Me\Up2.png">
+                <img id="right1"class="heads" src="Images\Me\Right1.png">
+                <img id="right2" class="heads" src="Images\Me\Right2.png">
+                <img id="centerHead" class="heads" src="Images\Me\centerHead.png">
+                <img id="img8" class="firstSectionImages" src="Images\Me\Body.png">
+                <img id="img9" class="firstSectionImages" name="backCharacters" src="Images\9. Back Characters.png">
+                <img id="img95" class="firstSectionImages" name="backGlow" src="Images/GlowGif.gif">
+                <img id="img96" class="firstSectionImages" name="backGlow" src="Images/GlowGif.gif">
+                <img id="img11" class="firstSectionImages" name="particles" src="Images\11. Particles.png">
+            </div>
+            <div id="layer4" class="layers">
+                <img id="img13" class="firstSectionImages" name="backShadow" src="Images\13. Back Shadow.png">
+                <img id="img14" class="firstSectionImages" name="backWall" src="Images\14. Back Wall.png">
+            </div>
+            <div id="layer5" class="layers">
+                <img id="img15" class="firstSectionImages" name="clouds" src="Images\15. Clouds.png">
+            </div>
+            <div id="layer0" class="layers">
+                <img id="img0" class="firstSectionImages" name="backFloor" src="Images\0 .Back Floor.png">
             </div>
         </div>
-        <div id="layer2" class="layers">
-            <img id="img5" class="firstSectionImages" name="frontWall" src="Images\5. FrontWall.png">
-        </div>
-        <div id="layer25" class="layers">
-            <img id="img6" class="firstSectionImages" name="thirdCharacters" src="Images\6. Third Layer Characters.png">
-            <img id="img7" class="firstSectionImages" name="table" src="Images\7. Table.png">
-            <img id="img10" class="firstSectionImages" name="floor" src="Images\10. Floor.png">
-        </div>
-        <div id="layer3" class="layers">
-            <img id="down1" class="heads" src="Images\Me\Down1.png">
-            <img id="down2" class="heads" src="Images\Me\Down2.png">
-            <img id="lDown1" class="heads" src="Images\Me\L-down1.png">
-            <img id="lDown2" class="heads" src="Images\Me\L-down2.png">
-            <img id="lUp1" class="heads" src="Images\Me\L-up1.png">
-            <img id="lUp2" class="heads" src="Images\Me\L-up2.png">
-            <img id="left1" class="heads" src="Images\Me\Left1.png">
-            <img id="left2" class="heads" src="Images\Me\Left2.png">
-            <img id="rDown1" class="heads" src="Images\Me\R-down1.png">
-            <img id="rDown2" class="heads" src="Images\Me\R-down2.png">
-            <img id="rUp1" class="heads" src="Images\Me\R-up1.png">
-            <img id="rUp2" class="heads" src="Images\Me\R-up2.png">
-            <img id="up1" class="heads" src="Images\Me\Up1.png">
-            <img id="up2" class="heads" src="Images\Me\Up2.png">
-            <img id="right1"class="heads" src="Images\Me\Right1.png">
-            <img id="right2" class="heads" src="Images\Me\Right2.png">
-            <img id="centerHead" class="heads" src="Images\Me\centerHead.png">
-            <img id="img8" class="firstSectionImages" src="Images\Me\Body.png">
-            <img id="img9" class="firstSectionImages" name="backCharacters" src="Images\9. Back Characters.png">
-            <img id="img11" class="firstSectionImages" name="particles" src="Images\11. Particles.png">
-        </div>
-        <div id="layer4" class="layers">
-            <!-- <img id="img12" class="firstSectionImages" name="distanceEffect" src="Images\12. Distance Effect.png"> -->
-            <img id="img13" class="firstSectionImages" name="backShadow" src="Images\13. Back Shadow.png">
-            <img id="img14" class="firstSectionImages" name="backWall" src="Images\14. Back Wall.png">
-        </div>
-        <div id="layer5" class="layers">
-            <img id="img15" class="firstSectionImages" name="clouds" src="Images\15. Clouds.png">
-        </div>
-        <div id="layer0" class="layers">
-            <img id="img0" class="firstSectionImages" name="backFloor" src="Images\0 .Back Floor.png">
-        </div>
-        <img id="img16" class="firstSectionImages" name="backGround" src="Images\16.BackGround.png">
     </section>
-    <section id="someThing">
+    <section id="My-projects">
+        <!-- <video class="mockups-videos">
+            <source src="Videos/Icon Festival.mp4" type="video/mp4">
+        </video> -->
     </section>
-    <style>
-        body{
-            padding: 0px;
-            margin: 0px;
-        }
-        #Introduce{
-            position: relative;
-            width: 100%;
-            /* cursor: url("Images/bugbug.png"), auto; */
-        }
-        .layers{
-            position: absolute;
-            width: 100%;
-        }
-        #someThing{
-            width: 100%;
-            height: 2400px;
-        }
-        #title{
-            position: absolute;
-            margin-top: 12vw;
-            margin-left: 43%;
-            margin-right: 43%;
-            width: 14%;
-            padding: 5px;
-            text-align: center;
-            z-index: -10;
-        }
-        h1{
-            color:white;
-            font-size: 2vw;
-            padding: 0%;
-            margin: 0.5vw;
-            font-family: 'Julius Sans One', sans-serif;
-        }
-        h2{
-            color:white;
-            font-size: 1vw;
-            padding: 0%;
-            margin: 0.4vw;
-        }
-        .firstSectionImages{
-            position: absolute;
-            width: 100%;
-        }
-        #img1{
-            z-index:-1;
-        }
-        #img2{
-            z-index:-2;
-        }
-        #img3{
-            z-index:-3;
-        }
-        #img4{
-            z-index:-4;
-        }
-        #img5{
-            z-index:-5;
-        }
-        #img6{
-            z-index:-6;
-        }
-        #img7{
-            z-index:-7;
-        }
-        #img8{
-            z-index:-8;
-        }
-        #img9{
-            z-index:-9;
-        }
-        #img10{
-            z-index:-10;
-        }
-        #img11{
-            z-index:-11;
-        }
-        #img12{
-            z-index:-12;
-        }
-        #img13{
-            z-index:-13;
-        }
-        #img14{
-            z-index:-14;
-        }
-        #img15{
-            z-index:-15;
-        }
-        #img0{
-            z-index:-16;
-        }
-        #img16{
-            z-index:-20;
-            position: fixed;
-            object-fit: cover;
-            height: 100vh;
-        }
-        .heads{
-            display: none;
-            z-index:-7;
-            position: absolute;
-            width: 100%;
-        }
-        #centerHead{
-            display: block;
-        }
-        .triggerTr{
-            width: 10%;
-        }
-        .triggerTd{
-            height: 10%;
-        }
-        #triggerTable{
-            width: 100%;
-            height: 100vh;
-            position: absolute;
-        }
-    </style>
-    <script>
-        var heads ={
-            down1 : document.getElementById("down1"),
-            down2 : document.getElementById("down2"),
-            lDown1 : document.getElementById("lDown1"),
-            lDown2 : document.getElementById("lDown2"),
-            lUp1 : document.getElementById("lUp1"),
-            lUp2 : document.getElementById("lUp2"),
-            left1 : document.getElementById("left1"),
-            left2 : document.getElementById("left2"),
-            rDown1 : document.getElementById("rDown1"),
-            rDown2 : document.getElementById("rDown2"),
-            rUp1 : document.getElementById("rUp1"),
-            rUp2 : document.getElementById("rUp2"),
-            up1 : document.getElementById("up1"),
-            up2 : document.getElementById("up2"),
-            right1 : document.getElementById("right1"),
-            right2 : document.getElementById("right2"),
-            centerHead : document.getElementById("centerHead"),
-        }
-        window.onscroll = function () {
-            var position, img, layer;
-            position = $(window).scrollTop(); 
-            triggerTable = document.getElementById("triggerTable");
-            layer0 = document.getElementById("layer0");
-            layer1 = document.getElementById("layer1");
-            layer2 = document.getElementById("layer2");
-            layer25 = document.getElementById("layer25");
-            layer3 = document.getElementById("layer3");
-            layer4 = document.getElementById("layer4");
-            layer5 = document.getElementById("layer5");
-            position1 = position*(0.34);
-            position2 = position*(0.3);
-            position25 = position*(0.26);
-            position3 = position*(0.238);
-            position4 = position*(0.16);
-            position5 = position*(0.2);
-            triggerTable.style.top = position3 + 'px';
-            layer0.style.top = position1 + 'px';
-            layer1.style.top = position1 + 'px';
-            layer2.style.top = position2 + 'px';
-            layer25.style.top = position25 + 'px';
-            layer3.style.top = position3 + 'px';
-            layer4.style.top = position4 + 'px';
-            layer5.style.top = position5 + 'px';
-        }
-        function centerHead(){
-            for (var item in heads) {
-                if(!(heads[item].id==="centerHead")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function up1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="up1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function up2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="up2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function down1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="down1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function down2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="down2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function lDown1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="lDown1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function lDown2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="lDown2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function lUp1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="lUp1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function lUp2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="lUp2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function left1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="left1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function left2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="left2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function rDown1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="rDown1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function rDown2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="rDown2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function rUp1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="rUp1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function rUp2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="rUp2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function right1(){
-            for (var item in heads) {
-                if(!(heads[item].id==="right1")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-        function right2(){
-            for (var item in heads) {
-                if(!(heads[item].id==="right2")){
-                    
-                    heads[item].style.display="none";
-                }
-                else
-                {
-                    heads[item].style.display="block";
-                }
-            }
-        }
-
-        // var mouse = {x:0, y:0}; //mouse.x, mouse.y
-		// document.addEventListener("mousemove", checkPosition); 
-		// function checkPosition(e){
-		// 	mouse.x = e.pageX;
-		// 	mouse.y = e.pageY;
-        //     console.log("x= "+ mouse.x);
-        //     console.log("y= "+mouse.y);
-        // }
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

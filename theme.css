@@ -1,0 +1,173 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(#31151c, black);
+    background-attachment: fixed;
+}
+.topnav {
+    background-color: #2e131a;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.topnav a {
+    float: left;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a:hover {
+    background-color: rgba(136, 19, 48, 0);
+    border-bottom: 6px solid rgb(136, 19, 48);
+    color: white;
+}
+.topnav a.active {
+    background-color: rgba(136, 19, 48, 0);
+    border-bottom: 6px solid rgb(136, 19, 48);
+    color: white;
+}
+#Introduce{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 40px;
+    /* cursor: url("Images/bugbug.png"), auto; */
+}
+.layers{
+    position: absolute;
+    width: 100%;
+}
+#My-projects{
+    position: relative;
+    /* background-color: blue; */
+    width: 100%;
+    height: 2000px;
+}
+.mockups-videos{
+    width: 900px;
+    filter: grayscale(100%)
+    
+}
+.mockups-videos:hover{
+    filter: grayscale(0%)
+}
+#title{
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: 43%;
+    margin-right: 43%;
+    width: 14%;
+    padding: 5px;
+    text-align: center;
+    z-index: 1;
+}
+h1{
+    color:white;
+    font-size: 2vw;
+    padding: 0%;
+    margin: 0.5vw;
+    font-family: 'Julius Sans One', sans-serif;
+}
+h2{
+    color:white;
+    font-size: 1.1vw;
+    padding: 0%;
+    margin: 0.4vw;
+    font-family: 'Indie Flower', cursive;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.firstSectionImages{
+    position: absolute;
+    width: 100%;
+}
+#img1{
+    z-index:-1;
+}
+#img2{
+    z-index:-2;
+}
+#img3{
+    z-index:-3;
+}
+#img4{
+    z-index:-4;
+}
+#img5{
+    z-index:-5;
+}
+#img6{
+    z-index:-6;
+}
+#img7{
+    z-index:-7;
+}
+#img8{
+    z-index:-8;
+}
+#img9{
+    z-index:-9;
+}
+#img95{
+    z-index:-10;
+}
+#img96{
+    z-index:-10;
+}
+#img10{
+    z-index:-11;
+}
+#img11{
+    z-index:-12;
+}
+#img12{
+    z-index:-13;
+}
+#img13{
+    z-index:-14;
+}
+#img14{
+    z-index:-15;
+}
+#img15{
+    z-index:-16;
+}
+#img0{
+    z-index:-17;
+}
+.heads{
+    display: none;
+    z-index:-7;
+    position: absolute;
+    width: 100%;
+}
+#centerHead{
+    display: block;
+}
+.triggerTr{
+    width: 10%;
+}
+.triggerTd{
+    height: 10%;
+    border: 2px solid red;
+    position: relative;
+}
+#triggerTable{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#headButton{
+    border: 2px solid blue;
+    width: 40%;
+    height: 60%;
+    top:0;
+    left:0;
+    margin-top: 20%;
+    margin-left: 30%;
+    border-radius: 50%;
+    position: absolute;
+}
